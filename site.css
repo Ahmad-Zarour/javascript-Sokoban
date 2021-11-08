@@ -1,0 +1,35 @@
+
+div #container{
+	margin: auto;	
+}
+
+div #sokobanPlan > div{
+	width: 3.7em;
+	height: 3.7em;
+}
+
+.tile-wall{
+	background:url('/img/walls.jpg');
+}
+
+  
+  .tile-space{
+	
+	background:url('/img/back-space.jpg');
+}
+
+.entity-block{
+
+	background:url('/img/goldMovableBlock.jpg');
+}
+
+.tile-goal{
+    background:url('/img/goldGoal.jpg');
+}
+.entity-player{
+    background:url('/img/character.png');
+}
+
+.entity-block-goal{
+	background:url('/img/goldInBox.png');	
+}
